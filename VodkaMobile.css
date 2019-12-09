@@ -1,0 +1,63 @@
+@media (max-width: 576px) {
+  body {
+    max-width: 576px;
+  }
+
+  .box1 {
+    height: 400px;
+    background-color: #33a8dd;
+  }
+
+  .social {
+    display: none;
+  }
+
+  #welcome {
+    font-family: "Bitter", serif;
+    font-size: 48px;
+    color: white;
+    text-align: center;
+    animation: bounceInLeft 4s;
+    animation-iteration-count: 1;
+  }
+
+  #site {
+    font-size: 58px;
+  }
+
+  .box2 {
+    height: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f7f5f6;
+  }
+
+  h2 {
+    font-family: "Bitter", serif;
+    text-align: center;
+    color: black;
+  }
+
+  .article {
+    width: 550px;
+    height: 10px;
+    margin-bottom: 200px;
+  }
+
+  .text {
+    font-family: "Quicksand", sans-serif;
+    text-align: left;
+    color: black;
+    padding: 0;
+  }
+
+  p {
+    width: 100%;
+  }
+
+  img {
+    display: none;
+  }
+}

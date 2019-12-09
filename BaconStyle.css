@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+}
+
+.box1 {
+  width: 100vw;
+  height: 50vh;
+  display: grid;
+  grid-template-columns: 25% 50% 25%;
+  /* justify-content: center; */
+  background-color: #2bccc0;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+  -moz-outline-style: none;
+}
+
+.social {
+  grid-area: 1/3/2/4;
+  margin-top: 5px;
+  margin-left: 200px;
+}
+
+#face {
+  color: #f46731;
+  margin-right: 5px;
+}
+
+#ig {
+  color: #f46731;
+  margin-left: 5px;
+}
+
+#about {
+  font-family: "Quicksand", sans-serif;
+  color: #f46731;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+#welcome {
+  font-family: "Bitter", serif;
+  font-size: 48px;
+  color: white;
+  grid-area: 2/2/3/3;
+  margin: 0 auto;
+  animation: bounceInLeft 4s;
+  animation-iteration-count: 1;
+}
+
+#site {
+  font-size: 58px;
+}
+
+.box2 {
+  width: 100vw;
+  height: 50vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: #1a1a1a;
+}
+
+#blue {
+  width: 225px;
+  height: 30px;
+  background-color: #33a8dd;
+}
+
+#orange {
+  width: 225px;
+  height: 30px;
+  background-color: #f46731;
+}
+
+#teal {
+  width: 225px;
+  height: 30px;
+  background-color: #2bccc0;
+}
+
+h2 {
+  font-family: "Bitter", serif;
+  text-align: center;
+  color: white;
+}
+
+.article {
+  width: 225px;
+  height: 50px;
+  margin-top: 20px;
+}
+
+.text {
+  font-family: "Quicksand", sans-serif;
+  text-align: center;
+  color: white;
+}

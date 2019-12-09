@@ -1,0 +1,83 @@
+body {
+  max-width: 992px;
+  margin: 0;
+}
+
+.box1 {
+  width: 100vw;
+  height: 50vh;
+  display: grid;
+  grid-template-columns: 25% 50% 25%;
+  /* justify-content: center; */
+  background-color: #f46731;
+}
+
+a {
+  text-decoration: none;
+}
+
+.social {
+  grid-area: 1/3/2/4;
+  margin-top: 5px;
+  margin-left: 200px;
+}
+
+#face {
+  color: #2bccc0;
+  margin-right: 5px;
+}
+
+#ig {
+  color: #2bccc0;
+  margin-left: 5px;
+}
+
+#about {
+  font-family: "Quicksand", sans-serif;
+  color: #2bccc0;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+#bacon2 {
+  font-family: "Bitter", serif;
+  font-size: 48px;
+  color: white;
+  grid-area: 2/2/3/3;
+  text-align: center;
+  margin: 0 auto;
+  animation: bounceInLeft 4s;
+  animation-iteration-count: 1;
+}
+
+.box2 {
+  width: 100vw;
+  height: 50vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #1a1a1a;
+}
+
+h2 {
+  font-family: "Bitter", sans-serif;
+  color: white;
+  padding-left: 20px;
+}
+
+.text {
+  font-family: "Quicksand", sans-serif;
+  color: white;
+  padding-left: 20px;
+}
+
+p {
+  width: 75%;
+}
+
+img {
+  padding-top: 90px;
+  padding-right: 50px;
+  margin-left: -250px;
+  height: 50%;
+}

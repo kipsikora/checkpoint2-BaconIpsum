@@ -55,6 +55,7 @@ a {
 }
 
 #about {
+  display: none;
   font-family: "Quicksand", sans-serif;
   color: #f46731;
   margin-left: 5px;

@@ -75,7 +75,6 @@ a {
   font-family: "Bitter", serif;
   font-size: 100px;
   color: white;
-  /* letter-spacing: 25px; */
   animation: heartBeat 2s;
   animation-iteration-count: infinite;
 }

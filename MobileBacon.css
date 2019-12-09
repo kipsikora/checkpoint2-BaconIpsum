@@ -9,9 +9,7 @@
   }
 
   .social {
-    display: flex;
-    margin-left: 0;
-    margin-right: 5px;
+    margin-left: -15px;
   }
 
   #about {

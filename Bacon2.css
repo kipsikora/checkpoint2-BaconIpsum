@@ -16,10 +16,22 @@ a {
   text-decoration: none;
 }
 
+#home {
+  color: #2bccc0;
+  margin-right: 5px;
+  margin-top: 5px;
+}
+
+a:focus,
+a:active {
+  outline: none;
+  -moz-outline-style: none;
+}
+
 .social {
   grid-area: 1/3/2/4;
   margin-top: 5px;
-  margin-left: 200px;
+  margin-left: 140px;
 }
 
 #face {

@@ -9,7 +9,13 @@
   }
 
   .social {
-    display: none;
+    display: flex;
+    margin-left: 0;
+    margin-right: 5px;
+  }
+
+  #about {
+    margin-top: 25px;
   }
 
   .box2 {

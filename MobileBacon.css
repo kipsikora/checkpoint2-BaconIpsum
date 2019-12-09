@@ -26,12 +26,12 @@
   }
 
   .box2 {
-    height: 1200px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    background-color: #f7f5f6;
+    background-color: white;
+    margin-top: 500px;
   }
 
   h2 {

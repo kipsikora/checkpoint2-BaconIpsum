@@ -5,11 +5,15 @@
 
   .box1 {
     height: 400px;
-    background-color: #33a8dd;
+    background-color: #f46731;
   }
 
   .social {
     display: none;
+  }
+
+  #site {
+    font-size: 58px;
   }
 
   .box2 {

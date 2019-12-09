@@ -1,0 +1,39 @@
+@media (max-width: 576px) {
+  body {
+    max-width: 576px;
+  }
+
+  .box1 {
+    height: 400px;
+    background-color: #1a1a1a;
+  }
+
+  .social {
+    display: none;
+  }
+
+  .box2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #1a1a1a;
+  }
+
+  video {
+    height: 200px;
+    margin-left: 75%;
+    margin-top: 75%;
+  }
+
+  #obey {
+    font-family: "Bitter", serif;
+    font-size: 75px;
+    text-align: center;
+    color: white;
+    letter-spacing: 10px;
+    margin-top: 25px;
+    animation: heartBeat 2s;
+    animation-iteration-count: infinite;
+  }
+}

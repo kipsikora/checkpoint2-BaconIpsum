@@ -7,7 +7,6 @@ body {
   height: 50vh;
   display: grid;
   grid-template-columns: 25% 50% 25%;
-  /* justify-content: center; */
   background-color: #2bccc0;
 }
 

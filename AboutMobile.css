@@ -5,13 +5,12 @@
 
   .box1 {
     height: 400px;
-    background-color: #1a1a1a;
+    background-color: #2bccc0;
   }
 
   .social {
     display: flex;
     margin-left: 0;
-    margin-right: 5px;
   }
 
   #about {
@@ -23,7 +22,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #1a1a1a;
+    background-color: #2bccc0;
   }
 
   video {
